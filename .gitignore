@@ -1,0 +1,3 @@
+/KSIS/src/*
+!/KSIS/src/TASM/lab.asm
+!/KSIS/src/TASM/lab2.asm
