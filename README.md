@@ -30,7 +30,10 @@
   * [report](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab3/rep)
 1. [4 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab4)
   * [report](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab4/rep)
-  * [report](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab4/src)
+  * [source](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab4/src)
+1. [5 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab5)
+  * [report](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab5/rep)
+  * [source](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab5/src)
 
 > TRPO labs
 1. So far it's empty..
