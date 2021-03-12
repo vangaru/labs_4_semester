@@ -6,10 +6,17 @@
 1. [1 Lab](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab1)
   * [report](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab1/rep)
   * [source](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab1/src)
+1. [2 Lab](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab2)
+  * [report](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab2/rep)
+  * [source](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab2/src)
+---
 
+---
 > MSSIT labs
 1. So far it's empty..
+---
 
+---
 > OOTISP labs
 1. [1 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab1)
   * [report](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab1/rep)
@@ -20,7 +27,9 @@
 1. [3 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab3)
   * [report](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab3/rep)
   * [source](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab3/src)
+---
 
+---
 > OSISP labs
 1. [1 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab1)
   * [report](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab1/rep)
@@ -34,7 +43,9 @@
 1. [5 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab5)
   * [report](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab5/rep)
   * [source](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab5/src)
+---
 
+---
 > TRPO labs
 1. So far it's empty..
 ---
