@@ -27,6 +27,10 @@
 1. [3 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab3)
   * [report](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab3/rep)
   * [source](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab3/src)
+1. [4 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab4)
+  * [source](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab4/src)
+    * [List](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab4/src/List)
+    * [Set](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab4/src/Set)
 ---
 
 ---
