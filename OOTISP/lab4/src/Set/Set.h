@@ -19,8 +19,10 @@ public:
 	void insert(T element);
 	void erase(T element);
 	int size();
-	void display();
+	bool hasNext();
+	T next();
 	bool operator > (T data);
+	void operator = (std::initializer_list<T> elements);
 };
 
 template<class T>
@@ -34,6 +36,15 @@ template<class T>
 bool Set<T>::operator > (T data)
 {
 	return tree->inTree(data);
+}
+
+template<class T>
+void Set<T>::operator = (std::initializer_list<T> elements)
+{
+	for (auto element : elements)
+	{
+		insertIfDoesNotExist(element);
+	}
 }
 
 template<class T>
@@ -86,9 +97,15 @@ int Set<T>::size()
 }
 
 template<class T>
-void Set<T>::display()
+bool Set<T>::hasNext()
 {
-	tree->inorder();
+	return tree->hasNext();
+}
+
+template<class T>
+T Set<T>::next()
+{
+	return tree->next();
 }
 
 template<class T>
@@ -96,5 +113,3 @@ Set<T>::~Set()
 {
 	delete tree;
 }
-
-

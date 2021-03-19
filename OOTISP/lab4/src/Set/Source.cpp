@@ -1,12 +1,16 @@
 #include "Set.h"
+#include <iostream>
+
+using namespace std;
 
 int main()
 {
-	Set<int>* set = new Set<int>({ 4, 1, 2, 3, 5, 3, 4, 4, 4, 4 } );
+	Set<int> set = { 1, 2, 3, 4 };
 
-	set->display();
-
-	std::cout << std::endl << set->size();
+	while (set.hasNext())
+	{
+		cout << set.next() << endl;
+	}
 
 	return 0;
 }

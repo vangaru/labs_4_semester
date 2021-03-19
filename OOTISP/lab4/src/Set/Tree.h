@@ -1,12 +1,11 @@
 #pragma once
 
-#include <iostream>
+#include <stack>
 
 template<class T>
 class Tree
 {
 private:
-
 	struct Node
 	{
 		T data;
@@ -16,13 +15,53 @@ private:
 
 	Node* root;
 
+	class TreeIterator
+	{
+	private:
+		std::stack<T> nodes;
+		void fillUpNodes(Node* node)
+		{
+			if (node == nullptr)
+			{
+				return;
+			}
+			fillUpNodes(node->right);
+			nodes.push(node->data);
+			fillUpNodes(node->left);
+		}
+
+	public:
+		TreeIterator(Node* node)
+		{
+			fillUpNodes(node);
+		}
+		bool hasNext()
+		{
+			if (nodes.size() > 0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		T next()
+		{
+			T returnData = nodes.top();
+			nodes.pop();
+			return returnData;
+		}
+	};
+
+	TreeIterator* treeIterator;
+
 	Node* makeNodeEmpty(Node* node);
 	Node* insert(T data, Node* node);
 	Node* getNodeWithMinData(Node* node);
 	Node* getNodeWithMaxData(Node* node);
 	Node* remove(T data, Node* node);
 	bool inTree(T data, Node* node);
-	void inorder(Node* node);
 
 public:
 	Tree();
@@ -30,13 +69,15 @@ public:
 	void insert(T data);
 	void remove(T data);
 	bool inTree(T data);
-	void inorder();
+	bool hasNext();
+	T next();
 };
 
 template<class T>
 Tree<T>::Tree()
 {
 	root = nullptr;
+	treeIterator = nullptr;
 }
 
 template<class T>
@@ -65,6 +106,7 @@ template<class T>
 void Tree<T>::insert(T data)
 {
 	root = insert(data, root);
+	treeIterator = new TreeIterator(root);
 }
 
 template<class T>
@@ -92,6 +134,7 @@ template<class T>
 void Tree<T>::remove(T data)
 {
 	root = remove(data, root);
+	treeIterator = new TreeIterator(root);
 }
 
 template<class T>
@@ -194,20 +237,13 @@ bool Tree<T>::inTree(T data, Tree<T>::Node* node)
 }
 
 template<class T>
-void Tree<T>::inorder()
+bool Tree<T>::hasNext()
 {
-	inorder(root);
+	return treeIterator->hasNext();
 }
 
 template<class T>
-void Tree<T>::inorder(Tree<T>::Node* node)
+T Tree<T>::next()
 {
-	if (node == nullptr)
-	{
-		return;
-	}
-	inorder(node->left);
-	std::cout << node->data << std::endl;
-	inorder(node->right);
+	return treeIterator->next();
 }
-
