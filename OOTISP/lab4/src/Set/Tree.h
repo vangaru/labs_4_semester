@@ -29,6 +29,13 @@ private:
 			nodes.push(node->data);
 			fillUpNodes(node->left);
 		}
+		void removeNodes()
+		{
+			while (hasNext())
+			{
+				nodes.pop();
+			}
+		}
 
 	public:
 		TreeIterator(Node* node)
@@ -52,6 +59,11 @@ private:
 			nodes.pop();
 			return returnData;
 		}
+		void toStartOf(Node* node)
+		{
+			removeNodes();
+			fillUpNodes(node);
+		}
 	};
 
 	TreeIterator* treeIterator;
@@ -71,19 +83,21 @@ public:
 	bool inTree(T data);
 	bool hasNext();
 	T next();
+	void toStart();
 };
 
 template<class T>
 Tree<T>::Tree()
 {
 	root = nullptr;
-	treeIterator = nullptr;
+	treeIterator = new TreeIterator(root);
 }
 
 template<class T>
 Tree<T>::~Tree()
 {
 	root = makeNodeEmpty(root);
+	delete treeIterator;
 }
 
 template<class T>
@@ -246,4 +260,10 @@ template<class T>
 T Tree<T>::next()
 {
 	return treeIterator->next();
+}
+
+template<class T>
+void Tree<T>::toStart()
+{
+	treeIterator->toStartOf(root);
 }
