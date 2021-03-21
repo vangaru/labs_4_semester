@@ -23,6 +23,7 @@ public:
 	int size();
 	bool operator > (T data);
 	bool operator < (Set<T>& other);
+	Set<T>& operator * (Set<T>& other);
 	void operator = (std::initializer_list<T> elements);
 	Set<T>& operator = (Set<T>& other);
 	bool hasNext();
@@ -33,7 +34,8 @@ public:
 template<class T>
 Set<T>::Set(const Set<T>& other)
 {
-	clear();
+	tree = other.tree;
+	length = other.length;
 }
 
 template<class T>
@@ -72,6 +74,22 @@ bool Set<T>::operator > (T data)
 }
 
 template<class T>
+typename Set<T>& Set<T>::operator * (Set<T>& other)
+{
+	Set<T>* crossingSet = new Set<T>();
+	while (other.hasNext())
+	{
+		T data = other.next();
+		if (this->operator>(data))
+		{
+			crossingSet->insert(data);
+		}
+	}
+	other.toStart();
+	return *crossingSet;
+}
+
+template<class T>
 void Set<T>::operator = (std::initializer_list<T> elements)
 {
 	for (auto element : elements)
@@ -83,13 +101,13 @@ void Set<T>::operator = (std::initializer_list<T> elements)
 template<class T>
 typename Set<T>& Set<T>::operator = (Set<T>& other)
 {
-	if (this == &other)
+	if (this == &other)                                   
 	{
 		return *this;
 	}
 	while (other.hasNext())
-	{
-		insert(other.next());
+	{          
+		insert(other.next());                
 	}
 	other.toStart();
 	return *this;
