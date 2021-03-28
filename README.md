@@ -9,6 +9,9 @@
 1. [2 Lab](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab2)
   * [report](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab2/rep)
   * [source](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab2/src)
+1. [3 Lab](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab3)
+  * [report](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab3/rep)
+  * [source](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab3/src)
 ---
 
 ---
