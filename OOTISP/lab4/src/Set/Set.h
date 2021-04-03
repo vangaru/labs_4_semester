@@ -74,7 +74,7 @@ bool Set<T>::operator > (T data)
 }
 
 template<class T>
-typename Set<T>& Set<T>::operator * (Set<T>& other)
+Set<T>& Set<T>::operator * (Set<T>& other)
 {
 	Set<T>* crossingSet = new Set<T>();
 	while (other.hasNext())
@@ -99,15 +99,15 @@ void Set<T>::operator = (std::initializer_list<T> elements)
 }
 
 template<class T>
-typename Set<T>& Set<T>::operator = (Set<T>& other)
+Set<T>& Set<T>::operator = (Set<T>& other)
 {
-	if (this == &other)                                   
+	if (this == &other)
 	{
 		return *this;
 	}
 	while (other.hasNext())
-	{          
-		insert(other.next());                
+	{
+		insert(other.next());
 	}
 	other.toStart();
 	return *this;
