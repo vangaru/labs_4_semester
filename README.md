@@ -51,6 +51,9 @@
 1. [6 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab6)
     [report](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab6/rep)
     [source](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab6/src)
+1. [7 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab7)
+    [report](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab7/rep)
+    [source](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab7/src)
 
 
 ## TRPO labs
