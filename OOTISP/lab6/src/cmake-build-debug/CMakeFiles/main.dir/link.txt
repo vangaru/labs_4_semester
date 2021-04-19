@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/main.dir/main.cpp.o -o main  libtask1.a libtask2.a libPerson.a 

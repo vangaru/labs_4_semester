@@ -1,0 +1,6 @@
+/media/tuesdaydude/DATA/labs4sem/labs_4_semester/OOTISP/lab6/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tuesdaydude/DATA/labs4sem/labs_4_semester/OOTISP/lab6/src/cmake-build-debug/CMakeFiles/Person.dir
+/media/tuesdaydude/DATA/labs4sem/labs_4_semester/OOTISP/lab6/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/tuesdaydude/DATA/labs4sem/labs_4_semester/OOTISP/lab6/src/cmake-build-debug/CMakeFiles/task1.dir
+/media/tuesdaydude/DATA/labs4sem/labs_4_semester/OOTISP/lab6/src/cmake-build-debug/CMakeFiles/task2.dir
+/media/tuesdaydude/DATA/labs4sem/labs_4_semester/OOTISP/lab6/src/cmake-build-debug/CMakeFiles/main.dir
