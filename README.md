@@ -38,6 +38,9 @@
 1. [6 lab](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab6)
     [report](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab6/rep)
     [source](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab6/src)
+1. [7 lab](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab7)
+    [report](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab7/rep)
+    [source](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab7/src)
 ## OSISP labs
 1. [1 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab1)
     [report](https://github.com/vangaru/labs_4_semester/tree/main/OSISP/lab1/rep)
