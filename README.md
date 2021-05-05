@@ -14,6 +14,13 @@
 1. [4 Lab](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab4)
     [report](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab4/rep)
     [source](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab4/src)
+1. [5 Lab](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab5)
+    [report](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab5/rep)
+    [source](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab5/src)
+1. [6 Lab](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab6)
+    [report](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab6/rep)
+    [source](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab6/src)
+
 
 ## MSSIT labs
 1. So far it's empty..
