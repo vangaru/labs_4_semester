@@ -22,6 +22,8 @@
 	[report](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab7/rep)
 1. [8 Lab](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab8)
 	[report](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab8/rep)
+1. [9 Lab](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab9)
+	[report](https://github.com/vangaru/labs_4_semester/tree/main/KSIS/lab9/rep)
 	
 ## OOTISP labs
 1. [1 Lab](https://github.com/vangaru/labs_4_semester/tree/main/OOTISP/lab1)
